@@ -22,7 +22,7 @@ p_load(leaflet, ggplot2, ggthemes, viridis, dplyr, magrittr, knitr)
 # Define pink color
 red_pink <- "#e64173"
 # Notes directory
-dir_slides <- "~/Dropbox/Teaching/EC 421 F19/EC421F19_private/LectureNotes/01Intro/"
+dir_slides <- "~"
 # Knitr options
 opts_chunk$set(
   comment = "#>",
@@ -602,4 +602,7 @@ exclude: true
 
 ```{R, generate pdfs, include = F}
 system("decktape remark 01_intro.html 01_intro.pdf --chrome-arg=--allow-file-access-from-files")
+
+#library(xaringan)
+#decktape("01_intro.html", "01_intro.pdf", args = "--chrome-arg=--allow-file-access-from-files", docker = FALSE)
 ```

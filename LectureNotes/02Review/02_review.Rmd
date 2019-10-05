@@ -22,7 +22,7 @@ p_load(broom, latex2exp, ggplot2, ggthemes, viridis, dplyr, magrittr, knitr, par
 # Define pink color
 red_pink <- "#e64173"
 # Notes directory
-dir_slides <- "~/Dropbox/Teaching/EC 421 F19/EC421F19_private/LectureNotes/02Review/"
+dir_slides <- "~"
 # Knitr options
 opts_chunk$set(
   comment = "#>",
@@ -1553,8 +1553,10 @@ $$ \text{Consumption}\_i = \beta\_0 + \beta\_1 \text{Income}\_{i} + \beta\_2 \te
 ---
 exclude: true
 
-```{R, generate pdfs, include = F}
+```{R, generate pdfs, include = F, eval = T}
 system("decktape remark 02_review.html 02_review.pdf --chrome-arg=--allow-file-access-from-files")
+#library(xaringan)
+#decktape("02_review.html", "02_review.pdf", args = "--chrome-arg=--allow-file-access-from-files")
 ```
 
 #```{R, generate pdfs, include = F, eval = T}

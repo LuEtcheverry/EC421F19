@@ -1,8 +1,0 @@
-"0","# Load packages"
-"0","library(gapminder); library(dplyr)"
-"0","# Create dataset"
-"0","ggplot(data = gapminder, aes(x = gdpPercap, y = lifeExp)) +"
-"0","geom_point(alpha = 0.75) +"
-"0","scale_x_continuous(""GDP per capita"", label = scales::comma) +"
-"0","ylab(""Life Expectancy"") +"
-"0","theme_pander(base_size = 16)"

@@ -1,7 +1,0 @@
-"0","# Load packages with dataset"
-"0","library(gapminder)"
-"0","# Create dataset"
-"0","plot("
-"0","  x = gapminder$gdpPercap, y = gapminder$lifeExp,"
-"0","  xlab = ""GDP per capita"", ylab = ""Life Expectancy"""
-"0",")"

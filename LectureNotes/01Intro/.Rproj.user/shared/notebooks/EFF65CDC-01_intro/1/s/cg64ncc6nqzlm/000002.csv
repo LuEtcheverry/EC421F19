@@ -1,4 +1,0 @@
-"0","library(leaflet)"
-"0","leaflet() %>%"
-"0","  addTiles() %>%"
-"0","  addMarkers(lng = -123.075, lat = 44.045, popup = ""The University of Oregon"")"
